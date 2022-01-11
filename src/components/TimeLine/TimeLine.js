@@ -44,9 +44,17 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>EDUCATIONAL QUALIFICATIONS</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      Federal Polytechnic Nigeria HIGHER NATIONAL DIPLOMA(HND) in Mechanical
+      Engineering Technology 
+      </SectionText>
+      <SectionText>
+      Northlake College, Irving, Texas. Associates in Liberal Sciences (AAS)
+      </SectionText>
+      <SectionText>
+      [CERTIFICATION]
+      AWS Certified Solutions Architect – Associate
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

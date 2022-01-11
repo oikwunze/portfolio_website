@@ -12,15 +12,17 @@ const data = [
 
 const Acomplishments = () => (
   <Section>
+  
     <SectionTitle>Personal Achievements</SectionTitle>
-    <Boxes>
+    <p>Coming....</p>
+    {/* <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
           <BoxNum>{`${card.number}+`}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
-    </Boxes>
+    </Boxes> */}
     <SectionDivider/>
   </Section>
 );

@@ -8,8 +8,8 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with a range of technologies in the software development world.
+      From Frontend, Backend To DevOps. 
     </SectionText>
     <List>
       <ListItem>
@@ -17,10 +17,12 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Public Cloud Platform</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js
+            Aws
+            Azure
+            GCP
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,10 +31,12 @@ const Technologies = () =>  (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Operating Systems</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Linux
+            Windows Server
+            Mac OS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,12 +45,42 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
+          <ListTitle>Languages</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Python
+            Java
+            Go
+            Ruby
+            Bash Scripting
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Software/Tools</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+             Jenkins Docker Kubernetes 
+             Ansible Terraform Git 
+             Other DevOps Tools...
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        {/* <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
             tools like Figma
           </ListParagraph>
-        </ListContainer>
+        </ListContainer> */}
       </ListItem>
     </List>
     <SectionDivider colorAlt />

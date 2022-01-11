@@ -10,10 +10,13 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Welcome To <br />
-          My Personal Portfolio
+          Okechukwu Ikwunze Personal Portfolio
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        This a personal portfolio website about what i have done, what i'm doing now and my future plans.
+        I am a Skilled IT Professional with 8+ years in DevOps and Site Reliability Engineer experience in
+        designing, automating, and optimizing mission critical deployments in AWS, leveraging
+        configuration management, CI/CD, Docker, Kubernetes and DevOps processes.  I am passionate about DevOps, Web Dev, Kubernetes, Machine Learning & I enjoy learning new things.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
